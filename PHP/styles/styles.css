@@ -1,0 +1,44 @@
+header
+{
+	border: 1px solid black;
+	background-image: url("../media/images/header.png");
+	padding: 5px;
+}
+
+.logo
+{
+	position: absolute;
+	top: 18px;
+	left: 18px;
+}
+
+h1
+{
+	margin-left: 100px;
+	color: silver;
+}
+
+footer
+{
+	position: fixed;
+	left: -260px;
+	bottom: 0px;
+	text-align: center;
+	margin: auto;
+	width: 50%;
+	z-index: -1;
+}
+
+nav
+{
+	top: 100px;
+	padding: 5px;
+	width: 100px;
+}
+
+section
+{
+	position: absolute;
+	left: 150px;
+	top: 110px;
+}
