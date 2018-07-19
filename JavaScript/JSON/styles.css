@@ -1,0 +1,12 @@
+.button
+{
+	width : 100px;
+	height : 40px;
+	padding : 20px;
+	margin : 20px;
+	font-size : 16px;
+	font-family : "Calibri";
+	text-align : center;
+	border : 2px solid black;
+	display : inline-block;
+}

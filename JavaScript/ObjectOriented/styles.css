@@ -1,0 +1,9 @@
+﻿.normandy
+{
+	position: relative;
+	border: 2px solid orange;
+	height: 304px;
+	width: 570px;
+	background-image: url("normandy.jpg");
+	color: orange;
+}

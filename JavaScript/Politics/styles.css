@@ -1,0 +1,112 @@
+body
+{
+	font-family: "Calibri";
+	font-size: 16px;
+	
+	margin: 1% 25%;
+	padding: 10px;
+	border-left: 3px solid red;
+	border-right: 3px solid blue;
+	background: -moz-linear-gradient(bottom,  rgba(255,0,0,0.75), rgba(0,0,255,0.75)); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(rgba(255,0,0,0.75)), color-stop(rgba(0,0,255,0.75))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(bottom,  rgba(255,0,0,0.75),rgba(0,0,255,0.75)); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(bottom,  rgba(255,0,0,0.75),rgba(0,0,255,0.75)); /* Opera 11.10+ */
+	background: -ms-linear-gradient(bottom,  rgba(255,0,0,0.75),rgba(0,0,255,0.75)); /* IE10+ */
+	background: linear-gradient(to top,  rgba(255,0,0,0.75),rgba(0,0,255,0.75)); /* W3C */
+}
+
+.header-beta
+{
+	font-size: 30px;
+	font-family: "Cambria";
+	margin: 0;
+}
+
+.header-alpha
+{
+	font-weight: bold;
+	font-size: 45px;
+	font-style: italic;
+	font-family: "Cambria";
+	margin: 0;
+}
+
+.paragraph
+{
+	width: 600px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.porcupine-with-text
+{
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.mascot-with-text
+{
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.porcupine-text
+{
+	width: 300px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.mascot-text
+{
+	width: 300px;
+	display: inline-block;
+	vertical-align: middle;
+}
+ 
+.porcupine-image
+{
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid black;
+	background-image: url('porcupine.png');
+	background-size: 261px 193px;
+	background-repeat: no-repeat;
+	width: 261px;
+	height: 193px;
+	margin-right: 20px;
+}
+
+.mascot-image
+{
+	display: inline-block;
+	vertical-align: middle;
+	border: 2px solid black;
+	background-image: url('donkey-elephant.jpg');
+	background-size: 261px 193px;
+	background-repeat: no-repeat;
+	width: 261px;
+	height: 193px;
+	margin-right: 20px;
+}
+
+.bold
+{
+	font-family: "Cambria";
+	margin: 0;
+	font-weight: bold; 
+}
+
+.footer
+{
+	font-family: "Cambria";
+	margin: 0;
+	font-weight: bold; 
+}
+
+.field
+{
+	margin-top: 15px;
+}

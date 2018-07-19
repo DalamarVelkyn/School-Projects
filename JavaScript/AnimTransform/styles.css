@@ -1,0 +1,148 @@
+.body
+{
+	border: 1px solid black;
+	width: 10px;
+	height: 10px;
+	background-color: green;
+}
+
+.body2
+{
+	display: none;
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+	background-color: green;
+}
+
+.para
+{
+	position: absolute;
+	top: 5px;
+	left: 25px;
+	width: 100px;
+}
+
+.middle
+{
+	position: absolute;
+	border: 1px solid black;
+	width: 300px;
+	height: 300px;
+	left: 100px;
+	top: 100px;
+	font-family: exampleFont;
+	font-size: 30px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.closetext
+{
+	position: absolute;
+	top: 241px;
+	left: 210px;
+	width: 100px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.roller
+{
+	position: absolute;
+	border: 1px solid black;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+
+.closer
+{
+	position: relative;
+	top: 85px;
+	left: 285px;
+	border: 1px solid black;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+}
+
+.one
+{
+	background-color: rgb(255, 0, 255);
+	left: 25px;
+	top: 25px;
+}
+
+.two
+{
+	background-color: rgb(255, 0, 170);
+	left: 425px;
+	top: 25px;
+}
+
+.three
+{
+	background-color: rgb(255, 0, 85);
+	left: 425px;
+	top: 425px;
+}
+
+.four
+{
+	background-color: rgb(255, 0, 0);
+	left: 25px;
+	top: 425px;
+}
+
+@font-face {
+    font-family: exampleFont;
+    src: url(ENDOR.ttf);
+}
+@keyframes expand
+{
+	from {width: 10px;
+	height: 10px;}
+	to {width: 500px;
+	height: 500px;}
+}
+
+@keyframes contract
+{
+	from {width: 500px;
+	height: 500px;}
+	to {width: 0px;
+	height: 0px;}
+}
+
+@keyframes move1
+{
+	from {left: 25px;
+	background-color: rgb(255, 0, 255);}
+	to {left: 425px;
+	background-color: rgb(255, 0, 170);}
+}
+
+@keyframes move2
+{
+	from {top: 25px;
+	background-color: rgb(255, 0, 170);}
+	to {top: 425px;
+	background-color: rgb(255, 0, 85);}
+}
+
+@keyframes move3
+{
+	from {left: 425px;
+	background-color: rgb(255, 0, 85);}
+	to {left: 25px;
+	background-color: rgb(255, 0, 0);}
+}
+
+@keyframes move4
+{
+	from {top: 425px;
+	background-color: rgb(255, 0, 0);}
+	to {top: 25px;
+	background-color: rgb(255, 0, 255);}
+}
